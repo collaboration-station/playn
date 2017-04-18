@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.googlecode.playn</groupId>
+    <artifactId>playn-project</artifactId>
+    <version>1.8.5</version>
+  </parent>
+
+  <groupId>edu.bsu.issgame</groupId>
+  <artifactId>issgame</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>IssGame Metaproject</name>
+
+  <properties>
+    <playn.version>1.9</playn.version>
+    <guava.version>18.0</guava.version>
+    <!-- Override the inherited value from PlayN -->
+    <android.maven.version>3.8.2</android.maven.version>
+  </properties>
+
+  <profiles>
+    <profile>
+      <id>java</id>
+      <activation><activeByDefault>true</activeByDefault></activation>
+      <modules><module>java</module></modules>
+    </profile>
+    <profile>
+      <id>android</id>
+      <modules><module>android</module></modules>
+    </profile>
+    <profile>
+      <id>ios</id>
+      <modules><module>ios</module></modules>
+    </profile>
+  </profiles>
+  <modules>
+    <module>assets</module>
+    <module>core</module>
+  </modules>
+</project>

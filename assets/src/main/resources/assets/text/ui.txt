@@ -1,0 +1,12 @@
+button.host = I am the Commander!
+button.join = Join Expedition
+button.play = Play
+button.cancel = Cancel
+button.begin = Begin Expedition
+search.button.cancel = Cancel
+search.text = Searching for game...
+label.timeRemaining = Time Remaining:
+label.score = Score:
+label.startGameInstructions = Welcome to Collaboration Station! To start the mission, select a player to be the commander. The commander should press host, and everyone else should press join.
+label.roleSelect = First, choose one commander.
+label.roleSelect.join = Then, others join the expedition.

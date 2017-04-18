@@ -1,0 +1,15 @@
+COPYING
+pom.xml
+.project
+android/.project
+android/.classpath
+android/src
+assets/.project
+assets/.classpath
+assets/src
+core/.project
+core/.classpath
+core/src
+java/.project
+java/.classpath
+java/src

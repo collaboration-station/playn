@@ -1,0 +1,5 @@
+To make a release build and sign with Maven, here's the command (where I've replaced the actual keystore password with 'PASSWORD'.
+
+mvn clean package -Pandroid -Psign -Dkeystore.path=/home/pvg/Documents/keystores/keystore-bsu -Dkeystore.alias=bsu -Dkeystore.password=PASSWORD -Dkey.password=PASSWORD -Dandroid.release=true
+
+This produces a zipaligned APK---look for issgame-android-1.0-SNAPSHOT-aligned.apk.

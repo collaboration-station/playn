@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Collaboration Station</string>
+    <string name="preBluetoothWarning">You need to enable Bluetooth to play this game.</string>
+
+</resources>
