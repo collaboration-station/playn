@@ -14,7 +14,8 @@
   <name>IssGame Metaproject</name>
 
   <properties>
-    <playn.version>1.9</playn.version>
+    <playn.version>1.9.1</playn.version>
+    <tripleplay.version>1.9</tripleplay.version>
     <guava.version>18.0</guava.version>
     <!-- Override the inherited value from PlayN -->
     <android.maven.version>3.8.2</android.maven.version>
